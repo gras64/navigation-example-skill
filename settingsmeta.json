@@ -1,0 +1,35 @@
+{
+    "skillMetadata": {
+        "sections": [
+            {
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "Enter your home Address there"
+                    },
+                    {
+                        "name": "homecity",
+                        "type": "text",
+                        "label": "city",
+                        "value": "",
+                        "placeholder": "London"
+                    },
+                    {
+                        "name": "homestreet",
+                        "type": "text",
+                        "label": "street",
+                        "value": "",
+                        "placeholder": "Winkelgasse"
+                    },
+                    {
+                        "name": "homenumber",
+                        "type": "Number",
+                        "label": "Number",
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    }
+}
+
