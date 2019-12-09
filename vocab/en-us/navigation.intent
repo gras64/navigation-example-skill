@@ -1,4 +1,4 @@
-I want to drive to billfingen in the hans thomastarße 7
-Take me to munich in baumgasse 5
-I would like to go to alexanderplaz in berlin
-I would like to go to the lane alley to london
+I want to drive to {city} in the {street} (|number {number})
+Take me to {city} in {street} (|number {number})
+I would like to go to {street} (|nummer {number}) in {city}
+I would like to go to the {street} (|nummer {number}) to {city}

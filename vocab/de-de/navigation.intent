@@ -1,4 +1,5 @@
-ich möchte nach {city} (|in die {street} (|nummer {number}))
+ich (möchte|will) nach {city} (|in die {street} (|nummer {number}))
 bringe mich nach {city} (|in die {street} (|nummer {number}))
-ich möchte nach {city} (|in die {street} (|nummer {number} ))
-kennst du den weg Nach {city} (|in die {street} (|nummer {number}))
+ich (möchte|will) nach {city} (|in die {street} (|nummer {number} ))
+kennst du den weg nach {city} (|in die {street} (|nummer {number}))
+Ich (möchte|will) (zur|zum) {street} in {city} (fahren|kommen|)

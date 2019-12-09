@@ -72,8 +72,8 @@ class NavigationExample(MycroftSkill):
         self.speak_dialog("where.am.i", data={"city": city, "street": street,})
 
     def where_was_i(self, message):
-        location = "münchen baumgasse"
-        self.speak_dialog("where.was.i", data={"location": location})
+        target = "münchen baumgasse"
+        self.speak_dialog("where.was.i", data={"target": target})
 
     def is_navigation(self):
         if self.navigation_active is True:

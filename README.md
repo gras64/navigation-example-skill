@@ -9,6 +9,11 @@ This is an example skill for navigation. this is ready for integration in the ri
 * "Take me to munich in baumgasse 5"
 * "I would like to go to alexanderplaz in berlin"
 * "I would like to go to the lane alley to london"
+* "I have a traffic jam"
+* "how far do I have to drive"
+* "where am i just going"
+* "I was in london the other day
+* "take me Home"
 ## Credits
 gras64
 
