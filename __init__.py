@@ -27,11 +27,15 @@ class NavigationExample(MycroftSkill):
         self.street = message.data.get("street", None)
         self.street_number = message.data.get("street_number", "1")
         lang = self.lang
-        extract_number = extract_numbers(self.street, short_scale=False, ordinals=False,
-                            lang="en-us")
-        if not int(extract_number) is None:
-            self.street_number = extract_number
-        self.speak_dialog('route', data={"city": self.city, "street": self.street, "number": self.street_number})
+        extract_number = None
+        try:
+            extract_number = extract_numbers(self.street, short_scale=False, ordinals=False,
+                                lang="en-us")
+            if not extract_number is None:
+                self.street_number = extract_number
+        except:
+            pass
+        self.speak_dialog("route", data={"city": self.city, "street": self.street, "number": self.street_number})
 
     def alternative_route(self, message):
         route = None
@@ -58,18 +62,18 @@ class NavigationExample(MycroftSkill):
         distance = "0"
         time = "0"
         if self.is_navigation is True:
-            self.speak_dialog('how.far', data={"time": time, "street": self.street, "distance": distance})
+            self.speak_dialog("how.far", data={"time": time, "street": self.street, "distance": distance})
         else:
             self.speak_dialog('no.route')
 
     def where_am_i(self, message):
         city = "münchen"
         street = "baumgasse"
-        self.speak_dialog('where.am.i', data={"city": city, "street": street,})
+        self.speak_dialog("where.am.i", data={"city": city, "street": street,})
 
     def where_was_i(self, message):
         location = "münchen baumgasse"
-        self.speak_dialog('where.was.i', data={"location": location})
+        self.speak_dialog("where.was.i", data={"location": location})
 
     def is_navigation(self):
         if self.navigation_active is True:
