@@ -2,6 +2,7 @@
     "skillMetadata": {
         "sections": [
             {
+                "name": "Home",
                 "fields": [
                     {
                         "type": "label",

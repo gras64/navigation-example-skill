@@ -1,4 +1,4 @@
-I want to drive to {city} in the {street} (|number {number})
-Take me to {city} in {street} (|number {number})
-I would like to go to {street} (|nummer {number}) in {city}
-I would like to go to the {street} (|nummer {number}) to {city}
+(we|I) (want|would) (to|) (drive|ride) to {city} in the {street} (|number {number})
+Take (us|me) to {city} in {street} (|number {number})
+(we|I) (want|would) like (to|) go to {street} (|nummer {number}) in {city}
+(we|I) (want|would) like (to|) go to the {street} (|nummer {number}) to {city}
